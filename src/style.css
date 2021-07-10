@@ -331,3 +331,12 @@ a:focus {
     list-style-position: inside;
   }
 }
+
+.line-numbers .line-numbers-rows {
+  top: 1rem !important;
+  width: 2.7rem !important;
+}
+
+.line-numbers-rows > span {
+  line-height: var(--lineHeight-normal);
+}
