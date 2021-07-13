@@ -1,12 +1,12 @@
 module.exports = {
   pathPrefix: "/gatsby-test",
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `A simple blog`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Jahirul Islam`,
+      summary: ``,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `A simple blog`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
       twitter: `kylemathews`,
