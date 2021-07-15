@@ -4,10 +4,10 @@ module.exports = {
     title: `A simple blog`,
     author: {
       name: `Jahirul Islam`,
-      summary: ``,
+      summary: `I like developing web apps, solving problems, and learning new things`,
     },
     description: `A simple blog`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    siteUrl: `https://jahir.me`,
     social: {
       twitter: `kylemathews`,
     },
