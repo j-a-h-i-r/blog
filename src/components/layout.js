@@ -1,5 +1,12 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import { ThemeToggle } from "./themetoggle"
+
+const twoColLayout = {
+  display: 'flex',
+  justifyContent: 'space-between',
+  alignItems: 'flex-start',
+}
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
@@ -8,15 +15,21 @@ const Layout = ({ location, title, children }) => {
 
   if (isRootPath) {
     header = (
-      <h1 className="main-heading">
-        <Link to="/">{title}</Link>
-      </h1>
+      <div style={twoColLayout}>
+        <h1 className="main-heading">
+          <Link to="/">{title}</Link>
+        </h1>
+        <ThemeToggle />
+      </div>
     )
   } else {
     header = (
-      <Link className="header-link-home" to="/">
-        {title}
-      </Link>
+      <div style={twoColLayout}>
+        <Link className="header-link-home" to="/">
+          {title}
+        </Link>
+        <ThemeToggle />
+      </div>
     )
   }
 
