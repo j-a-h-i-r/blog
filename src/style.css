@@ -1,5 +1,31 @@
 /* CSS Custom Properties Definitions */
 
+html.dark {
+	background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+	background-color: #485461;
+  --color-text: hsla(0, 0%, 90%, 1);
+  --color-primary: hsla(0, 80%, 80%, 1);
+  --color-heading-black: hsla(0, 90%, 80%, 1);
+  --color-heading: var(--color-text);
+  --color-code-background: hsla(195, 30%, 25%, 1);
+}
+
+.dark pre[class*="language-"] {
+  background: var(--color-code-background);
+  color: var(--color-text);
+  text-shadow: none;
+}
+
+.dark code[class*="language-"] {
+  color: var(--color-text);
+  text-shadow: none;
+  /* font-weight: bold; */
+}
+
+.dark :not(pre) > code[class*="language-"] {
+  background: var(--color-code-background);
+}
+
 :root {
   --maxWidth-none: "none";
   --maxWidth-xs: 20rem;
