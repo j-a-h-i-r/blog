@@ -366,3 +366,9 @@ a:focus {
 .line-numbers-rows > span {
   line-height: var(--lineHeight-normal);
 }
+
+.post-tags-container {
+  display: flex;
+  gap: var(--spacing-3);
+  margin-bottom: var(--spacing-4);
+}

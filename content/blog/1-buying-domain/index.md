@@ -2,6 +2,7 @@
 slug: "buying-domain"
 date: "2020-08-12"
 title: "Buying a domain for the first time"
+tags: ["domain"]
 ---
 
 I got invited to participate in a survey on LinkedIn. It was about ThymeLeaf. I used ThymeLeaft for a bit during my first job. So, I decided to do it. The survey was on G2 and I got a $10 virtual card as a reward for participating. 

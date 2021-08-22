@@ -2,6 +2,7 @@
 slug: "elastic-beanstalk-docker"
 date: "2020-12-25"
 title: "Using docker with elastic beanstalk is not fun!"
+tags: ["deployment", "aws"]
 ---
 
 I have a fullstack application using the JS stack. It uses express for the server and Angular on the front end. This is sort of a pet project and I like to do some experiments with it. One of them is to enable automatic deployment on it. 

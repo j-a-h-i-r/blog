@@ -2,6 +2,7 @@
 slug: "dokku-react-backend"
 date: "2021-07-09"
 title: "Setting up a react app with API using dokku"
+tags: ["dokku", "deployment"]
 ---
 
 I've recently discovered [dokku](https://dokku.com/). I was setting up some of my personal projects in a DigitalOcean droplet like a caveman and was looking for alternative. Dokku appeared in my search results like a blessing.

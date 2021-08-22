@@ -2,6 +2,7 @@
 slug: "chrome-extension-external-iframe"
 date: "2021-06-11"
 title: "Running scripts inside externally loaded iframe from Chrome Extension"
+tags: ["extension", "javascript"]
 ---
 
 Recently I worked on developing a Chrome Extension. The extension is quite simple. It presents some fields in the popup. Some pre-configured inputs in the current tab can be autofilled by clicking on a button.
