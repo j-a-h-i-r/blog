@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-tags-js","path":"/tags/dokku/","result":{"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/4-dokku/"},"frontmatter":{"title":"Setting up a react app with API using dokku"}}}]}},"pageContext":{"tag":"dokku"}},"staticQueryHashes":[]}
