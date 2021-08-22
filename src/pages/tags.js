@@ -1,8 +1,11 @@
 import React from "react"
 import PropTypes from "prop-types"
 
+import Layout from "../components/layout"
+import Seo from "../components/seo"
+
 // Components
-import { Helmet } from "react-helmet"
+// import { Helmet } from "react-helmet"
 import { Link, graphql } from "gatsby"
 
 const TagsPage = ({
@@ -13,21 +16,24 @@ const TagsPage = ({
     },
   },
 }) => (
-  <div>
-    <Helmet title={title} />
+  <Layout location={'/'} title={title}>
+    <Seo title="All tags" />
+
     <div>
-      <h1>Tags</h1>
-      <ul>
-        {group.map(tag => (
-          <li key={tag.fieldValue}>
-            <Link to={`/tags/${tag.fieldValue}/`}>
-              {tag.fieldValue} ({tag.totalCount})
-            </Link>
-          </li>
-        ))}
-      </ul>
+      <div>
+        <h1>Tags</h1>
+        <ul>
+          {group.map(tag => (
+            <li key={tag.fieldValue}>
+              <Link to={`/tags/${tag.fieldValue}/`}>
+                {tag.fieldValue} ({tag.totalCount})
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
-  </div>
+  </Layout>
 )
 
 TagsPage.propTypes = {
