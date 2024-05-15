@@ -5,7 +5,7 @@ import { ThemeToggle } from "./themetoggle"
 const twoColLayout = {
   display: 'flex',
   justifyContent: 'space-between',
-  alignItems: 'flex-start',
+  alignItems: 'center',
 }
 
 const Layout = ({ location, title, children }) => {
